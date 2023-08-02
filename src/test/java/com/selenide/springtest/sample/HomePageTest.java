@@ -21,7 +21,7 @@ import static io.cucumber.junit.platform.engine.Constants.GLUE_PROPERTY_NAME;
 //                "com.automatedtest.sample.homepage"})
 @Suite
 @IncludeEngines("cucumber")
-@SelectDirectories("src\\test\\java\\com\\selenide\\springtest\\sample\\features\\Home_page.feature")
+@SelectDirectories("src\\test\\java\\com\\selenide\\springtest\\sample\\features")
 @ConfigurationParameter(key = GLUE_PROPERTY_NAME, value = "com.selenide.springtest.sample")
 @ConfigurationParameter(key = Constants.PLUGIN_PUBLISH_QUIET_PROPERTY_NAME, value = "true")
 @ConfigurationParameter(key = Constants.PLUGIN_PROPERTY_NAME, value = "pretty"+ ", html:target/Destination.html")
